@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
  
-@@RunWith(Cucumber.class)
+@RunWith(Cucumber.class)
 @CucumberOptions
 
 	(features = ".//Features/hackathon.feature" ,
